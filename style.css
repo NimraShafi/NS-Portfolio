@@ -1,0 +1,534 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#preloader{
+    position: fixed;
+    left: 0;top: 0;bottom: 0;right: 0;
+    overflow: hidden;
+    z-index: 99;
+    background: #fff url(loader.svg) center no-repeat;
+    background-size: 20%;
+}
+
+.navbar{
+    background-color: #13131300;
+    border-radius: 100px;
+    border:   2px solid #d9ac253c;
+    margin: 0 80px;
+
+
+}
+.navbar-brand{
+    color: white;
+    font-size: 20px;
+    text-shadow: 1px 3px 2px #dda611; 
+}
+#nav-link-active{
+    color: #be8b15;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.nav-link:hover{
+    color: #dda611;
+}
+#hire-me-btn{
+    padding: 5px 30px;
+    background-color:#be8b15;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 100px;
+    /* box-shadow: 0 0 20px #4d854d; */
+    margin: 0 20px 0 30px;
+    text-decoration: none;
+}
+#hire-me-btn:hover{
+    background-color: #fafafa;
+    color: #be8b15;
+}
+#menu{
+    color: white;
+    font-size: 30px;
+}
+/* **********************navbar end*********************************************  */
+#header{
+    background-image: url(images/back1.jpg);
+    background-size: cover;
+    padding-top: 30px;
+}
+#main {
+    height: 350px;
+    margin-top: 70px;
+}
+
+#main h5 {
+    color: #be8b15;
+    font-size: 20px;
+    letter-spacing: 1px;
+    animation: main-h5 2s alternate;
+}
+@keyframes main-h5 {
+    from {transform: translateY(-200px);}
+    to {transform: translateY(0);}
+  }
+#main h1 {
+    color: #fafafa;
+    font-size: 40px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    animation: main-h1 2s alternate;
+}
+@keyframes main-h1 {
+    from {transform: translateY(-200px);}
+    to {transform: translateY(0);}
+  }
+#main h2 {
+    color: #be8b15;
+    font-size: 25px;
+    letter-spacing: 3px;
+    animation: main-h2 2s alternate;
+}
+@keyframes main-h2 {
+    from {transform: translateY(-200px);}
+    to {transform: translateY(0);}
+  }
+
+#main p {
+    color: #929296;
+    font-size: 17px;
+    letter-spacing: 1px;
+    animation: main-p 2s alternate;
+}
+@keyframes main-p {
+    from {transform: translateY(-700px);}
+    to {transform: translateY(0);}
+  }
+#main button{
+    padding: 5px 15px;
+    background-color:transparent;
+    border: 2px solid #be8b15;
+    font-size: 20px;
+    border-radius: 100px;
+    /* box-shadow: 0 0 20px #4d854d; */
+    animation: download-btn-main 2s alternate;
+  }
+#main button a{
+    color: white;
+    text-decoration: none;
+}
+#main button:hover{
+    background-color: #be8b15;
+}
+#main button a:hover{
+    background-color: #be8b15;
+}
+@keyframes download-btn-main {
+    from {transform: translateY(-700px);}
+    to {transform: translateY(0);}
+  }
+
+  /* ************************intro end********************* */
+/* .hr{
+    width: 90px;
+    border: 1.4px solid #dda611;
+    margin: 0 auto;
+    
+} */
+
+#about {
+    background-color: #131313;
+}
+#about-col1{
+    animation: about-col1 3s ease-out alternate;
+}
+@keyframes about-col1 {
+    from {transform: translateX(-700px);}
+    to {transform: translateX(0);}
+  }
+#about-col1 h5 {
+    color: #be8b15;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#about-col1 p {
+    color: #929296;
+    font-size: 16px;
+}
+#hrr{
+    width: 75px;
+    height: 10px;
+    color: #dda611;
+    
+}
+#about-col2{
+    animation: about-col2 3s ease-out alternate;
+}
+@keyframes about-col2 {
+    from {transform: translateX(700px);}
+    to {transform: translateX(0);}
+  }
+#about-col2 h3 {
+    color: #fafafa;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+#about-col2 p {
+    color: #be8b15;
+    font-size: 17px;
+    
+}
+#download-btn{
+    padding: 5px 15px;
+    background-color:transparent;
+    color: white;
+    font-size: 20px;
+    border: 2px solid #be8b15;
+    border-radius: 100px;
+    /* box-shadow: 0 0 20px #4d854d; */
+    text-decoration: none;
+}
+#download-btn:hover{
+    background-color:#be8b15;
+}
+#portfolio-btn{
+    padding: 5px 15px;
+    background-color:#be8b15;
+    color: white;
+    font-size: 20px;
+    border: 2px solid #be8b15;
+    border-radius: 100px;
+    /* box-shadow: 0 0 20px #4d854d; */
+    text-decoration: none;
+    margin-left: 10px;
+}
+#portfolio-btn:hover{
+    background-color: white;
+    color: #be8b15;
+    border: none;
+}
+/* ************************about end********************************* */
+#service {
+    background-color: #222222;
+}
+#service h1 {
+    color: #be8b15;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+.section-service {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    grid-gap: 30px;
+}
+.service-box {
+    flex: 1 1 auto; /* Changed */
+    padding: 30px;  /* Adjusted padding */
+    text-align: center;
+    background-color: #1c1c1d;
+    transition: transform .4s;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(66, 66, 66); /* Moved common properties here */
+    border-radius: 10px;
+    animation: service-box 1s ease-out alternate; /* Combined animations into one */
+    animation-delay: 10s;
+}
+@keyframes service-box {
+    from {transform: translateY(20px);} /* Adjusted initial animation position */
+    to {transform: translateY(0px);}
+}
+.service-icon {
+    border: 2px solid  #be8b15;
+    padding: 30px;
+    background-color: #2e2c2b;
+    color: #be8b15;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 0 0 20px   #be8b15;
+}
+.service-box h4 {
+    margin-top: 10px;
+    color: #fafafa;
+}
+.service-box p {
+    color: #929296;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin: 16px 0 24px 0;
+    line-height: 1.6;
+}
+.service-box:hover {
+    transform: translateY(-10px);
+}
+/* ************************service end**************************** */
+#skill {
+    background-color: #131313;
+    
+}
+#skill-col1 h5 {
+    color: #be8b15;
+    font-size: 30px;
+    animation: skill-col1-h5 2s linear alternate;
+    animation-delay: 15s;
+}
+@keyframes skill-col1-h5 {
+    from {transform: translateX(-300px);}
+    to {transform: translateX(0px);}
+  }
+#skill-col1 p {
+    color: #929296;
+    font-size: 16px;
+    animation: skill-col1-p 2s ease-out alternate;
+    animation-delay: 15s;
+}
+@keyframes skill-col1-p {
+    from {transform: translateX(-300px);}
+    to {transform: translateX(0px);}
+  }
+#skill-col1 button {
+    padding: 5px 15px 5px 15px;
+    background-color: transparent;
+    border: 2px solid #be8b15;
+    border-radius: 100px;
+    /* box-shadow: 0 0 15px #4d854d; */
+    animation: skill-col1-button 2s linear alternate;
+    animation-delay: 15s;
+   
+}
+#skill-col1 button a{
+    text-decoration: none;
+    color: #fafafa;
+}
+@keyframes skill-col1-button {
+    from {transform: translateX(-300px);}
+    to {transform: translateX(0px);}
+  }
+#skill-col1 button:hover {
+    background-color: #be8b15;
+    
+}
+#skill-col1 button a:hover{
+    background-color: #be8b15;
+    
+}
+#skill-col2{
+    height: 250px;
+    box-shadow: 3px 1px 6px 2px rgb(47, 47, 47);
+    /* box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, 0.409); */
+    animation: skill-col2 2s ease-out alternate;
+    animation-delay: 15s;
+}
+@keyframes skill-col2 {
+    from {transform: translateX(700px);}
+    to {transform: translateX(0);}
+  }
+#skill-col2 h4{
+    color: #fafafa;
+    line-height: 60px;
+    font-size: 23px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.progressbar{
+    background-color:#be8b15 ;
+    color: white;
+    font-weight: 500;
+}
+#pro-html{
+    animation: html 3s;
+    animation-delay: 15s;
+}
+@keyframes html{
+    from{width: 10%;}
+    to{width: 75%;}
+}
+#pro-css{
+    animation: css 3s;
+    animation-delay: 15s;
+}
+@keyframes css{
+    from{width: 10%;}
+    to{width: 65%;}
+}
+#pro-bootstrap{
+    animation: bootstrap 3s;
+    animation-delay: 15s;
+}
+@keyframes bootstrap{
+    from{width: 10%;}
+    to{width: 70%;}
+}
+#pro-wordpress{
+    animation: wordpress 3s;
+    animation-delay: 15s;
+}
+@keyframes wordpress{
+    from{width: 10%;}
+    to{width: 75%;}
+}
+#pro-xml{
+    animation: xml 3s;
+    animation-delay: 15s;
+}
+@keyframes xml{
+    from{width: 10%;}
+    to{width: 65%;}
+}
+/* ************************skill end**************************** */
+#my-work{
+    background-color:#222222 ;
+    padding-bottom: 50px;
+
+}
+#my-work h2{
+    text-align: center;
+    padding: 20px 0;
+    line-height: 100px;
+    color: #be8b15;
+    font-weight: 600;
+    
+}
+.my-work-gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    gap: 30px;
+}
+.my-work-box{
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    grid-template-rows: 1fr auto;
+    align-items: center;
+    /* border: 4px solid #be8b15; */
+    box-shadow: 0 0 20px rgb(84, 84, 84);
+    /* box-shadow:0px 3px 10px #be8b1584; */
+}
+.my-work-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.my-work-image img{
+    width: 100%;
+    height: 100%;
+    opacity: .5s;
+    transition: .5s;
+}
+.my-work-content{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: linear-gradient(#be8b1534,#be8b15b2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    transition: .5s;
+    padding:0 30px;
+    
+}
+.my-work-box:hover .my-work-content{
+    opacity: 1;
+}
+.my-work-box:hover .my-work-content img{
+    transform: scale(1.1);
+}
+.my-work-content h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+.my-work-content p{
+    font-size: 12px;
+    max-width: 5px 0 15px 0;
+    color:  #e8e8e8;
+}
+#explore{
+    background: #fff;
+    border-radius: 100px;
+    color: #be8b15;
+    font-size: 15px;
+    display: inline-flex;
+    padding: 5px 15px;
+    justify-content: center;
+    align-items: center;
+    border: 1p solid #be8b15;
+    outline: 2p solid #be8b15;
+    text-decoration: none;
+}
+#explore:hover{
+    background-color: #be8b15;
+    color: white;
+}
+/* ************************my work end**************************** */
+#contact {
+    background-color: #131313;
+}
+#contact h3 {
+    color: #fafafa;
+    font-size: 30px;
+    line-height: 2;
+    padding-top: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+}
+#contact h4{
+    color: #fafafa;
+    font-size: 20px;
+    
+    font-weight: 500;
+    text-align: center;
+}
+
+#contact p {
+    color:  #929296;
+    font-size: 17px;
+    text-align: center;
+    
+}
+.contact-div {
+   display: flex;
+   justify-content: center;
+}
+.contact-icon{
+    border: 2px solid  #d9ac253c;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: transparent;
+    margin: 10px;
+}
+.contact-icon i{
+  
+    font-size:23px;
+    color:#be8b15;
+    margin-left: 15px; 
+    margin-top: 15px;
+}
+.contact-icon:hover{
+    background-color: #d9ac253c;
+}
+/* ************************Contact end****************************  */

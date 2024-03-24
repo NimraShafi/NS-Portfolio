@@ -1,0 +1,30 @@
+@media only screen and (max-width:1000px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+}
+@media only screen and (max-width:992px) {
+    .navbar{
+        border-radius: 10px;
+        border:   2px solid #d9ac253c;
+    }
+
+    
+}
+@media only screen and (max-width:600px) {
+    .navbar{
+        margin: 0 0;
+        border: none;
+    }
+}
+@media only screen and (max-width:567px) {
+    #portfolio-btn{
+       line-height: 80px;
+       padding: 5px 20px;
+       margin-left: 0;
+    }
+   .navbar button{
+    border: none;
+   }
+}
